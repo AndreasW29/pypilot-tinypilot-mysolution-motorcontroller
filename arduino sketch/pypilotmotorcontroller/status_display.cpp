@@ -1,3 +1,5 @@
+#ifndef DISABLE_DEBUGGING_DISPLAY
+
 #include <TFT_FastPin.h>
 #include <TFT_ST7735.h>
 #include <User_Setup.h>
@@ -194,3 +196,4 @@ void display_binary_flags(void)
       x_pos++;
   }
 }
+#endif

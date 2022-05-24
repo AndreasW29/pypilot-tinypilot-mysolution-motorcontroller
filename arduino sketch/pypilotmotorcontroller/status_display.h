@@ -1,3 +1,5 @@
+#ifndef DISABLE_DEBUGGING_DISPLAY
+
 #ifndef __STATUS_DISPLAY_H__
 #define __STATUS_DISPLAY_H__
 
@@ -80,4 +82,5 @@ void display_binary_flags(void);
 }
 #endif
 
+#endif
 #endif
